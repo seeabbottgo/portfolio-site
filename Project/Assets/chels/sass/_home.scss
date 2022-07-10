@@ -1,0 +1,18 @@
+#home {
+
+  h1{
+    margin-bottom: .5rem;
+  }
+
+  h2{
+    margin-bottom: 3rem;
+  }
+
+  span {
+    transition: all 1s ease;
+
+    &:hover {
+      letter-spacing: 18px;
+    }
+  }
+}

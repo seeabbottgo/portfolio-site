@@ -1,0 +1,42 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+
+  span{
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 12px 0;
+    background-color: $gold;
+    border-radius: 50%;
+    color: $white;
+    @include header-bd-itc;
+    font-size: 24px;
+    line-height: .75;
+    text-align: center;
+    transition: all 1s ease;
+
+    &:hover{
+      background-color: $logoHov;
+    }
+  }
+
+  nav{
+    ul{
+      display: flex;
+      list-style-type: none;
+
+      li{
+        margin-left: 1rem;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+

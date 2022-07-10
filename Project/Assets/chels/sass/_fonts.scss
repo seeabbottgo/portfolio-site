@@ -1,0 +1,24 @@
+@mixin header-bd-itc {
+  font-family: "omnes-cyrillic",sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+@mixin header-bd {
+  font-family: "omnes-cyrillic",sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@mixin text-reg {
+  font-family: josefin-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin text-legal {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
